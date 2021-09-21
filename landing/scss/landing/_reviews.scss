@@ -1,0 +1,120 @@
+.reviews {
+  background: url(../assets/images/userthink.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  
+  
+  padding-left: 240px/16px*1rem;
+  
+  height: 1776px;
+}
+.reviews-direction {
+  display: flex;
+}
+.reviews-grid-container {
+  display: grid;
+  grid-template-columns: 515px/16px*1rem 515px/16px*1rem;
+  grid-template-rows: 463px/16px*1rem 463px/16px*1rem;
+  grid-gap: 30px;
+}
+.reviews__paragraph {
+ 
+}
+.reviews__headline {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.reviews__description {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 130%;  
+  color: #FFFFFF;
+}
+.reviews__item {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+.reviews__item:nth-child(n+6) {
+  display: none;
+}
+.reviews__where {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 130%;
+  color: #000000;
+  margin-top: 20px;
+}
+.reviews__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  margin-top: 20px;
+}
+.reviews__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;  
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 70px;
+}
+.reviews .arrows-block {
+  margin-top: 30px;
+  grid-column: 1 / 2;
+  justify-content: start;
+  padding-left: 36%;
+  button {
+    border: 1px solid #ffffff;
+    transition: all 200ms linear;
+  }
+  button:hover {
+    transition: all 200ms linear;
+    background-color: white;
+    svg path {
+      transition: all 200ms linear;
+      fill: $navy;;
+    }
+  }
+}
+.leave-feedback-btn {
+  grid-column: 1 /2;
+  margin-top: 346px;
+  padding: 26px 76px;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 359px/16px*1rem;
+  transition: all 200ms ease-out;
+  span {
+    padding-left: 10px;
+  }
+}
+.leave-feedback-btn:hover {
+  transition: all 200ms ease-in;
+  background-color: $turquoise;
+}

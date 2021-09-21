@@ -1,0 +1,107 @@
+.donations__content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.donation {
+    background-color: $navy;
+    height: 221px;
+}
+.text-donations {
+    display: flex;
+    flex-direction: column;
+    height: 71px+50px;
+    justify-content: space-between;
+    width: 70%;
+    h2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 51px;
+        text-transform: uppercase;
+        color: $white;
+    }
+    p {
+        width: 609px/980px*100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: $white;
+    }
+}
+.quick-donations {
+    display: flex;
+    flex-direction: column;
+    height: 34px+10px+74px;
+    justify-content: space-between;
+    p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 130%;
+        color: $white;
+    }
+    
+}
+
+.donation__input::-webkit-outer-spin-button,
+.donation__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+    
+    /* Firefox */
+.donation__input[type=number] {
+  -moz-appearance: textfield;
+}
+.donation__input::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.donation__input {
+    background-color: #20113d;
+    border: none;
+    width: 240px/16px*1rem;
+}
+.donation__submit::after {
+    content: url(/assets/arrow.png);
+}
+.donation__submit {
+    background-color: $orange;
+    border: none;
+    width: 80px;
+    height: 74px;
+}
+.donation__link {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    label {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-right: 0.2rem;
+        padding-left: 14px/16px*1rem;
+    }
+}
+.donation__input:focus,
+.donation__input:active {
+    outline: none;
+}
+.donation__input {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 1;
+}

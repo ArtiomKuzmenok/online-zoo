@@ -1,0 +1,126 @@
+.footer {
+  margin-top: 150px;
+  background-color: $navy;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 68px;
+}
+.footer-donate-btn {
+  padding: 26px 32px;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 359px/16px*1rem;
+  transition: all 200ms ease-out;
+  span {
+    padding-left: 10px;
+  }
+}
+.footer-donate-btn:hover {
+  background-color: $turquoise;
+  transition: all 200ms ease-in;
+}
+.nav-footer {
+  width: 32%;
+}
+.nav-footer__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all 200ms linear;
+  };
+  li a:hover {
+    color: $turquoise;
+    transition: all 200ms linear;
+  }
+}
+.footer__hr {
+  border: 1px solid #FFFFFF;
+  margin-top: 63px;
+}
+.companies-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 0;
+}
+.companies-block__items {
+  width: 448px/16px*1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+}
+.logo-container {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+[data-tooltip-rs], 
+[data-tooltip-yem] {
+  position: relative; /* Относительное позиционирование */ 
+  display: block;
+ }
+ [data-tooltip-rs]::after {
+  content: attr(data-tooltip-rs); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  width: 100px; /* Ширина подсказки */
+  left: 0; top: 0; /* Положение подсказки */
+  background: $navy; /* Синий цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 0.5em; /* Поля вокруг текста */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+  border: 1px solid white;
+  border-radius: 10px 10px 10px 0px ;
+  pointer-events: none; /* Подсказка */
+  opacity: 0; /* Подсказка невидима */
+  transition: 1s; /* Время появления подсказки */
+ } 
+ [data-tooltip-yem]::after  {
+  content: attr(data-tooltip-yem); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  width: 100px; /* Ширина подсказки */
+  left: 0; top: 0; /* Положение подсказки */
+  background: $navy; /* Синий цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 0.5em; /* Поля вокруг текста */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+  border: 1px solid white;
+  border-radius: 10px 10px 10px 0px ;
+  pointer-events: none; /* Подсказка */
+  opacity: 0; /* Подсказка невидима */
+  transition: 1s; /* Время появления подсказки */
+ }
+ [data-tooltip-rs]:hover::after {
+  opacity: 1; /* Показываем подсказку */
+  top: -3em; /* Положение подсказки */
+  left: 5em;
+ }
+ [data-tooltip-yem]:hover::after {
+  opacity: 1; /* Показываем подсказку */
+  top: -3em; /* Положение подсказки */
+  left: 3em;
+ }
+

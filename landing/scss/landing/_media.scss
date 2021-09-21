@@ -1,0 +1,739 @@
+@media (max-width: 1500px) {
+  .wrapper {
+    max-width: 1120px/1200px*100% !important;
+  }
+  .logo {
+    padding-left: 3em !important;
+  }
+  nav {
+    width: 60% !important;
+  }
+  .watch-your-animals__content {
+    padding-top: 100px !important;
+    height: 500px !important;
+    padding-bottom: 5em !important;
+    
+  }
+  .block {
+    margin-bottom: 100px !important;
+  }
+  .block__left {
+    flex-direction: column-reverse !important;
+    align-items: flex-start !important;
+    .img-block {
+      width: 59% !important;
+    }
+    .block__text {
+      width: 59% !important;
+      height: 375px !important;
+    }
+  }
+  .block__right {
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    .img-block {
+      width: 59% !important;
+    }
+    .block__text {
+      width: 59% !important;
+      height: 285px !important;
+    }
+  }
+  .welcome { 
+    padding-top: 100px !important;
+  }
+  .donation {
+    height: 313px !important;
+
+  }
+  .text-donations {
+    height: 213px !important;
+    width: 51% !important;
+    p {
+      width: 100% !important;
+    }
+  }
+  .meet-our-pets {
+    margin-top: 100px !important;
+    p {
+      margin-top: 30px !important;
+    }
+  }
+  .slider {
+    padding-left: 40px !important;
+    padding-bottom: 50px !important;
+  }
+  .pay-feed__text { 
+    text-align: center !important;
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+  }
+  .pay-feed__text_medium {
+    padding: 30px 0 30px 0 !important
+  }
+  .pay-feed__donate-link {
+    margin-top: 118px !important;
+  }
+  .reviews {
+    padding-left: 40px/1500px*100% !important;
+    height: 1880px !important;
+  }
+  .reviews-direction {
+    flex-direction: column;
+
+  }
+  .reviews__paragraph {
+    width: 49.5% !important;
+  }
+  .reviews__description {
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+  }
+  .reviews-grid-container {
+    padding-left: 9.2%;
+    overflow: hidden;
+  }
+  .reviews .arrows-block {
+    grid-column: 2 / 3 !important;
+    justify-content: end !important;
+    padding: 0 !important;
+  }
+  .leave-feedback-btn {
+    margin-top: 257px !important;
+  }
+  .care-feed-block {
+    grid-template-columns: 455px 455px !important;
+    grid-template-rows: 470px 641px 641px !important;
+    grid-gap: 20px !important;
+    justify-content: center !important;
+  }
+  .care-feed-block__item1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+  }
+  .footer-logo {
+    padding: 0 !important;
+  }
+  .meet-our-pets p {
+    width: 69% !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .watch-your-animals__content h2 {
+    font-size: 72px !important;
+    line-height: 88px !important;
+  }
+  .block {
+    align-items: center !important;
+  }
+  .donation {
+    height: 459px !important;
+  }
+  .donations__content {
+    flex-direction: column;
+  }
+  .text-donations {
+    height: 195px !important;
+    width: 97% !important;
+    align-items: center !important;
+    margin-top: 50px !important;
+  }
+  .text-donations h2 {
+    text-align: center;
+  }
+  .text-donations p {
+    text-align: center;
+  }
+  .quick-donations {
+    align-items: center !important;
+    margin-bottom: 3em !important;
+  } 
+  .slider {
+    grid-template-rows: 600px !important;
+    grid-template-columns: 290px/16px*1rem 290px/16px*1rem 290px/16px*1rem 290px/16px*1rem 290px/16px*1rem 290px/16px*1rem 290px/16px*1rem 290px/16px*1rem !important;
+  }
+  .pay-feed__description {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .pay-feed__donate-link {
+    margin: 0 auto !important;
+    margin-top: 50px !important;
+  }
+  .reviews-grid-container {
+    grid-template-columns: 32.1875rem 32.1875rem 32.1875rem 32.1875rem !important;
+    grid-template-rows: 28.9375rem !important;
+  }
+  .reviews__paragraph {
+    width: 69% !important;
+  }
+  .care-feed-block {
+    display: none !important;
+  }
+  .care-feed-block__item-mob {
+    flex-direction: row !important;
+    
+  }
+  .care-text-mob {
+    display: flex;
+    flex-direction: column;
+  }
+  .slider-item__animal-link-mob {
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    text-transform: uppercase !important;
+    color: #F58021 !important;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .logo-container {
+    width: 70% !important;
+  }
+  .nav-footer {
+    width: 70% !important;
+  }
+  .nav-footer {
+    margin: 0 !important;
+  }
+  .nav-footer__list {
+    margin-top: 3em !important;
+  }
+  .footer-donate-btn {
+    margin-top: 3em !important;
+  }
+  .watch-your-animals__content { 
+    width: 100% !important;
+  }
+  .block__text_right {
+    margin: 0 !important;
+  }
+  .logo {
+    padding: 0 !important;
+  }
+  .block__text p {
+    width: 100% !important;
+  }
+  .block__left .block__text {
+    width: 100% !important;
+    height: 375px !important;
+  }
+  .block__right .block__text {
+    width: 100% !important;
+    height: 375px !important;
+  }
+  .block__right .img-block {
+    width: 100% !important;
+  }
+  .block__left .img-block {
+  width: 100% !important;
+  }
+  .slider-item__animal-link {
+    bottom: 13px !important;
+    left: 12% !important;
+    padding: 15px 20px !important;
+  }
+  .pay-feed__text {
+    margin-top: 50px !important;
+  }
+  .reviews-grid-container {
+    padding: 0 !important;
+    grid-template-rows: 371px !important;
+  }
+  .reviews__paragraph {
+    width: 92.5% !important;
+  }
+  .reviews__item_direction {
+    display: flex !important;
+  }
+  .reviews__item_direction {
+    display: flex !important;
+    align-items: center !important;
+    img {
+      width: 15%;
+      height: 10%;
+    }
+  }
+  .reviews__where {
+    width: 100% !important;
+    text-align: center !important;
+    text-align: center;
+    span {
+      display: block;
+    }
+  }
+  .reviews__text {
+    text-align: center;
+  }
+  .reviews__name { 
+    width: 100% !important;
+    right: 0 !important;
+    text-align: center !important;
+  }
+  .care-feed-block__item {
+    display: flex !important;
+  }
+  .care-feed-block-mob {
+    height: 297px !important;
+    margin-top: 70px;
+  }
+  .care-mob__image img {
+    height: 100% !important;
+    width: 300px/16px*1rem !important;
+  }
+  .care-feed-block__item span {
+    display: flex !important;
+    padding: 0 !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+  }
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .slider-dot {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  .slider-dot:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .slider-dot_active {
+    background-color: #000000;
+  }
+  .care__headline {
+    width: 100% !important;
+  }
+  .meet-our-pets h2 {
+    width: 93.3333333% !important;
+    margin: 0 auto !important;
+  }
+  .meet-our-pets p {
+    width: 93.3% !important;
+  }
+  .arrows-block button {
+    margin: 0 4.5% !important;
+  }
+  .care-feed-block__item .care-text-mob_padding {
+    padding: 0 20px !important;
+  }
+}
+@media (max-width: 700px) {
+  header {
+    position: fixed;
+    z-index: 100;
+  }
+  .navigation-list {
+    display: none !important;
+  }
+  .social-links {
+    display: none !important;
+  }
+  .companies-block {
+    flex-direction: column-reverse !important;
+    align-items: center !important;
+  }
+  .companies-block__items {
+    margin-top: 50px;
+  }
+  .arrows-block {
+    display: none !important;
+  }
+  .leave-feedback-btn {
+    margin-top: 60px !important;
+  }
+  .watch-your-animals {
+    background-size: 113% !important;
+    background-position: -2em 28em !important;
+  }
+  .watch-your-animals {
+    padding-top: 110px !important;
+  }
+  .watch-your-animals__content {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    height: 644px !important;
+    box-sizing: border-box;
+  }
+  .wrapper-mob {
+    max-width: 100% !important;
+  }
+  .block__left .block__text,
+  .block__right .block__text,
+  .pay-feed__headline,
+  .pay-feed__line,
+  .care-feed-block-mob  {
+    width: 93.3333% !important;
+    margin: 0 auto !important;
+  }
+  .block .block__text {
+    margin-top: 30px !important;
+  }
+  .block__left .block__text {
+    height: 348px !important;
+  }
+  .block__right .block__text {
+    height: 258px !important;
+  }
+  .text-donations {
+    height: 290px !important;
+  }
+  .quick-donations {
+    margin-bottom: 50px;
+  }
+  .pay-feed { 
+    margin-top: 100px !important;
+  }
+  .pay-feed__headline {
+    padding-top: 80px !important;
+    text-align: center !important;
+  }
+  .pay-feed__line {
+    margin-top: 50px !important;
+  }
+  .pay-feed__img {
+    width: 100% !important;
+    img {
+      width: 100% !important;
+    }
+  }
+  .pay-feed__text { 
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .care__description {
+    width: 100% !important;
+  }
+  .pay-feed__description {
+    margin-top: 50px !important;
+  }
+  .care-feed-block-mob {
+    margin-top: 70px !important;
+  }
+  .care__headline {
+    margin-top: 80px !important;
+  }
+  .care__description {
+    margin-top: 30px !important;
+  }
+  .image-contact-zoo {
+    margin-top: 100px !important;
+  }
+  .slider {
+    grid-gap: 20px !important;
+    padding-left: 20px !important;
+  }
+  .footer {
+    margin-top: 100px !important;
+  }
+  .reviews-grid-container{
+    grid-template-columns: 523px/16px*1rem 523px/16px*1rem 523px/16px*1rem 523px/16px*1rem !important;
+  }
+  .reviews {
+    height: 1670px !important;
+    background-size: 150% !important;
+    background-position: 0em 61em !important;
+    background-repeat: no-repeat !important;
+  }
+  /*side-bar*/
+  .sidebar {
+    display: block !important;
+  }
+  .sidebar__icon {
+    display: block !important;
+  }
+  .sidebar {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: -100%;
+    transition: all 0.3s;
+    top: 0;
+    background-color: $navy;
+  }
+  .sidebar-show {
+    left: 0;
+  }
+  .sidebar__nav {
+    padding-top: 150px;
+  }
+  .sidebar__nav hr {
+    background: #C4C4C4;
+    border: none;
+    height: 1px;
+  }
+  .sidebar__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .sidebar__hr {
+    width: 30px;
+    height: 0px;
+    border: 2px solid #000000;
+    margin: 0;
+    margin: 5px 0px 5px 0px;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 100;
+  }
+  .sidebar__item a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .sidebar__item .active {
+    color: #00A092;
+  }
+  .sidebar li a {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+  .sidebar__hr_rotateR {
+    transform: rotate(45deg);
+    transition: all 0.3s;
+  }
+  .sidebar__hr_rotateL {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: all 0.3s;
+  }
+  .sidebar__hr_invisible {
+    display: none;
+    transition: all 0.3s;
+  }
+  .sidebar__hr_color {
+    border: 2px solid #ffffff;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper {
+    max-width: 93.75% !important;
+  }
+  .wrapper-mob {
+    max-width: 100% !important;
+  }
+  .watch-your-animals__content h2 {
+    font-size: 40px !important;
+    line-height: 49px !important;
+  }
+  .watch-your-animals__content {
+    height: 362px !important;
+    box-sizing: content-box !important;
+  }
+  .watch-your-animals {
+    background-size: 156% !important;
+    background-position: -13em 37em !important;
+    height: 786px !important;
+  }
+  .welcome {
+    padding-top: 50px !important;
+  }
+  .block .block__text {
+    
+    width: 93.75% !important;
+    h2 {
+      font-size: 26px !important;
+      line-height: 32px !important;
+    }
+    p {
+      font-size: 18px !important;
+      line-height: 27px !important;
+      margin-top: 30px;
+    }
+  }
+  .donation {
+    height: 446px !important;
+  }
+  .text-donations h2 {
+    font-size: 26px !important;
+    line-height: 32px !important;
+  }
+  .donation__link {
+    width: 93.75% !important;
+  }
+  .donation__input::placeholder {
+    font-size: 16px !important;
+  }
+  .donation__input {
+    width: 199px/16px*1rem !important;
+  }
+  .donation__submit {
+    height: 45px !important;
+  }
+  .meet-our-pets {
+    margin-top: 50px !important;
+  }
+  .meet-our-pets h2 {
+    font-size: 26px !important;
+    line-height: 32px !important;
+  }
+  .meet-our-pets p {
+    font-size: 18px !important;
+    line-height: 27px !important;
+  }
+  .slider {
+    padding-top: 30px !important;
+    grid-gap: 10px !important;
+    padding-left: 10px !important;
+    padding-bottom: 0 !important;
+  }
+  .choose-favorite-btn {
+    display: none !important;
+  }
+  .pay-feed {
+    margin-top: 50px !important;
+  }
+  .pay-feed__headline {
+    padding-top: 20px !important;
+    font-size: 26px !important;
+    line-height: 32px !important;
+  }
+  .pay-feed__text {
+    width: 93.75% !important;
+    margin-top: 30px !important;
+  }
+  .reviews {
+    padding-top: 40px !important;
+    
+  }
+  .reviews__headline {
+    font-size: 26px !important;
+    line-height: 32px !important;
+    text-align: center;
+  }
+  .reviews__paragraph {
+    width: 100% !important;
+  }
+  .reviews__description {
+    font-size: 18px !important;
+    line-height: 150% !important;
+    text-align: center;
+  }
+  .reviews-grid-container {
+    grid-template-columns: 97% 97% 97% 97% !important;
+    grid-template-rows: 549px !important;
+    grid-gap: 10px !important;
+  }
+  .reviews__item_direction {
+    display: flex !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+  }
+  .slider-dot_white {
+    border: 1px solid #FFFFFF !important; 
+  }
+  .slider-dot_white:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .slider-dot_white-active {
+    background-color: #ffffff;
+  }
+  .leave-feedback-btn {
+    width: 93.75% !important;
+    margin: 0 auto;
+    justify-content: center !important;
+    padding: 11px 47px !important;
+  }
+  .reviews {
+    height: 1461px !important;
+    background-size: 126% !important;
+    background-position: 0em 71em !important;
+  }
+  .care-feed-block__item-mob {
+    flex-direction: column !important;
+  }
+  .care-mob__image img {
+    width: 100% !important;
+  }
+  .care-text-mob {
+    margin-top: 15px !important;
+  }
+  .care-feed-block-mob  {
+    height: 570px !important;
+  }
+  .care__headline {
+    margin-top: 50px !important;
+    font-size: 26px !important;
+    line-height: 32px !important;
+  }
+  .care__description {
+    font-size: 18px !important;
+    line-height: 150% !important;
+  }
+  .care-feed-block-mob {
+    margin-top: 30px !important;
+  }
+  .slider-dots {
+    margin-top: 30px !important;
+  }
+  .choose-favorite-btn {
+    display: flex !important;
+    width: 93.75% !important;
+    margin: 0 auto !important;
+    height: 45px !important;
+    margin-top: 30px !important;
+  }
+  .footer {
+    margin-top: 50px !important;
+  }
+  .logo-container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .logo, .logo-digital, .logo-rs {
+    margin-bottom: 30px !important;
+  }
+  .nav-footer {
+    width: 100% !important;
+  }
+  .footer-donate-btn {
+    width: 100% !important;
+    height: 45px !important;
+    justify-content: center;
+  }
+  .companies-block__items {
+    flex-direction: column !important;
+  }
+  .companies-block__items p {
+    margin-bottom: 30px;
+  }
+  .watch-your-animals__content p {
+    width: 100% !important;
+  }
+  .watch-your-animals__content {
+    height: 362px !important;
+  
+  }
+  .watch-your-animals__content button {
+    width: 100% !important;
+    height: 45px !important;
+  }
+  .block__left .block__text {
+    height: 410px !important;
+  }
+  .block__right .block__text {
+    height: 350px !important;
+  }
+  .slider {
+    grid-template-columns:  300px/16px*1rem 300px/16px*1rem 300px/16px*1rem 300px/16px*1rem 300px/16px*1rem 300px/16px*1rem 300px/16px*1rem 300px/16px*1rem 300px/16px*1rem !important;
+  }
+  .companies-block__items {
+    width: 100% !important;
+  }
+}
