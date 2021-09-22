@@ -1,3 +1,19 @@
 # online-zoo
-Multipage project with adaptive layout and some features on JS
-Link on deploy: https://artiomkuzmenok.github.io/online-zoo/landing/pages/index.html
+
+## Description
+
+This is multipage training project. 
+
+## Link on deploy
+https://artiomkuzmenok.github.io/online-zoo/landing/pages/index.html
+
+## Technologies
+- HTML
+- SASS
+- JS
+
+## Packages
+- gh-pages
+
+## Tools 
+- VS Code
